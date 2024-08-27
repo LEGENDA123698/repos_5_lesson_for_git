@@ -22,5 +22,3 @@ game2 = Game.objects.create(
 )
 game2.genres.set([rpg])
 
-print(Game.objects.all())
-print(Genre.objects.all())
